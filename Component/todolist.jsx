@@ -4,7 +4,7 @@ export default class TodoList extends Component {
     state = {
         tasks: [
             { id: 1, name: 'Mengerjakan Post Test', completed: false },
-            { id: 2, name: 'Mengerjakan Pre Test', completed: false },
+            { id: 2, name: 'Mengerjakan Pre Test', completed: true },
             { id: 3, name: 'Menghadiri Bootcamp PZ', completed: false }
         ]
     };
